@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OtakuVros</string>
+
+    <string name="welcome">✦ Welcome to the best Otaku Community</string>
+    <string name="footer_text"><b>By signing in, you accepts our <u><i><a href='https://www.google.com'>terms and conditions.</a></i></u></b></string>
+    <string name="community">We are glad to have you with us. before you
+    continue, please take some minutes to read
+    our community <u><a href='https://www.google.com'>rules</a></u></string>
+
+</resources>

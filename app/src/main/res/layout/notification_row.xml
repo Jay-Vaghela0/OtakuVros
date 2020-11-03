@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginEnd="5dp"
+    android:layout_marginStart="3dp"
+    android:layout_marginTop="2dp"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/noti_userimage"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/noti_text"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:fontFamily="@font/fredoka"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/noti_userimage"
+            app:layout_constraintEnd_toStartOf="@+id/noti_image"
+            app:layout_constraintStart_toEndOf="@+id/noti_userimage"
+            app:layout_constraintTop_toTopOf="@+id/noti_userimage"
+            app:layout_constraintVertical_bias="0.163" />
+
+
+        <TextView
+            android:id="@+id/noti_time"
+            android:layout_width="0dp"
+            android:layout_height="14dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/fredoka"
+            android:textSize="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/noti_userimage"
+            app:layout_constraintStart_toEndOf="@+id/noti_userimage"
+            app:layout_constraintTop_toTopOf="@+id/noti_userimage"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/noti_image"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

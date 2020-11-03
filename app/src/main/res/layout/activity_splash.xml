@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F2F6"
+    tools:context=".Activity.SplashActivity">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        app:riv_corner_radius="24dp"
+        android:src="@drawable/icon"
+        android:transitionName="icon_transition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/text_bg"
+        android:fontFamily="@font/fredoka"
+        android:text="Otakus"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
